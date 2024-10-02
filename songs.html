@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Музыкальная страница</title>
+    <link rel="stylesheet" href="/songs.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Шапка -->
+    <header>
+      <div class="first-menu">
+        <a class="first" href=".//College.html">College</a>
+        <a class="first" href="./library.html">Library</a>
+        <a class="first" href="./songs.html">Songs</a>
+      </div>
+      <div class="logo">
+        <a href="./index.html"
+          ><img src="/jihc-logo-png-v3.png" alt="Logo"
+        /></a>
+      </div>
+      <div class="second-menu">
+        <a class="first" href="./activity.html">Activity</a>
+        <a class="first" href="teachers.html">Teachers</a>
+      </div>
+    </header>
+
+    <!-- Главная секция музыки -->
+    <section class="music-section">
+      <h2>Songs</h2>
+      <div class="songs-container">
+        <!-- Первая песня -->
+        <div class="song-card">
+          <img src="./images.jpeg" alt="Обложка песни 1" />
+          <h3>Omir-Ozen</h3>
+          <p>Akbota Nur</p>
+          <audio controls>
+            <source
+              src="./Өмір-өзен (ost әділ-зере) (Sefon.Pro).mp3"
+              type="audio/mpeg"
+            />
+          </audio>
+        </div>
+
+        <!-- Вторая песня -->
+        <div class="song-card">
+          <img
+            src="./7b32568629d147b9b9f7531a7beb5811_464_464.jpg"
+            alt="Обложка песни 2"
+          />
+          <h3>Counting Stars</h3>
+          <p>OneRepublic</p>
+          <audio controls>
+            <source src="./Counting stars.mp3" type="audio/mpeg" />
+          </audio>
+        </div>
+
+        <!-- Третья песня -->
+        <div class="song-card">
+          <img
+            src="./13d5cfdd948648c2a79623d2dee50f0e_464_464.jpg"
+            alt="Обложка песни 3"
+          />
+          <h3>Djo</h3>
+          <p>End of Beginning</p>
+          <audio controls>
+            <source src="./1-05 End of Beginning.mp3" type="audio/mpeg" />
+          </audio>
+        </div>
+
+        <!-- Песня 4 -->
+        <div class="song-card">
+          <img
+            src="./15aaf2ce6c8645109cb1499bbc9611a9_464_464.jpg"
+            alt="Обложка песни 4"
+          />
+          <h3>Diet Mountain Dew</h3>
+          <p>Lana Del Rey</p>
+          <audio controls>
+            <source src="Diet Mth Dew.mp3" type="audio/mpeg" />
+          </audio>
+        </div>
+
+        <!-- Песня 5 -->
+        <div class="song-card">
+          <img src="./1200x1200bb.jpg" alt="Обложка песни 5" />
+          <h3>Die with a smile</h3>
+          <p>Bruno Mars and Lady Gaga</p>
+          <audio controls>
+            <source
+              src="./1-01 Die With A Smile (feat. Lady Gaga).mp3"
+              type="audio/mpeg"
+            />
+          </audio>
+        </div>
+
+        <!-- Песня 6 -->
+        <div class="song-card">
+          <img src="./15147.jpg" alt="Обложка песни 6" />
+          <h3>Feel It Still</h3>
+          <p>Portugal</p>
+          <audio controls>
+            <source src="./Feel It Still.mp3" type="audio/mpeg" />
+          </audio>
+        </div>
+
+        <!-- Песня 7 -->
+        <div class="song-card">
+          <img src="./a3575994113_10.jpg" alt="Обложка песни 7" />
+          <h3>Time in a Bottle</h3>
+          <p>Jim Croce</p>
+          <audio controls>
+            <source
+              src="./83 Jim Croce - Time in a Bottle.mp3"
+              type="audio/mpeg"
+            />
+          </audio>
+        </div>
+
+        <!-- Песня 8 -->
+        <div class="song-card">
+          <img
+            src="./ab67616d0000b273edd52840c88ba5e7163071cf.jpeg"
+            alt="Обложка песни 8"
+          />
+          <h3>Lost on You</h3>
+          <p>LP</p>
+          <audio controls>
+            <source src="./98 Lost on You.mp3" type="audio/mpeg" />
+          </audio>
+        </div>
+
+        <!-- Песня 9 -->
+        <div class="song-card">
+          <img
+            src="./ab67616d0000b273d1a0d9a7cf88083aac260c33.jpeg"
+            alt="Обложка песни 9"
+          />
+          <h3>Somewhere only we know</h3>
+          <p>Keane</p>
+          <audio controls>
+            <source
+              src="./Keane - Somewhere only we know.mp3"
+              type="audio/mpeg"
+            />
+          </audio>
+        </div>
+      </div>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-logo">
+          <img src="/jihc-logo-png-v4(white).png" alt="College Logo" />
+        </div>
+        <div class="find">
+          <img
+            src="./Screenshot_2024-09-29_at_21.14.34-removebg-preview.png"
+            alt="Find Us"
+          />
+        </div>
+
+        <!-- Feedback form is now placed before social links -->
+        <h3 class="feedback">For feedback</h3>
+        <div class="feedback-form">
+          <form>
+            <input type="text" name="name" placeholder="Name" required />
+            <input type="tel" name="phone" placeholder="Phone" required />
+            <textarea name="message" placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+
+        <div class="social">
+          <h3>Follow Us</h3>
+          <a href="https://www.instagram.com/jihc.kz/"
+            ><img
+              class="soc"
+              src="https://akvard.ru/images/2018/insto.png"
+              alt="Instagram"
+          /></a>
+          <a href="https://www.facebook.com/jicedukz/"
+            ><img
+              class="soc"
+              src="https://static.tildacdn.pro/tild6539-3561-4638-b666-306134656166/kisspng-social-media.png"
+              alt="Facebook"
+          /></a>
+        </div>
+      </div>
+    </footer>
+    <div>
+      <div class="partners">
+        <a href="https://bil.edu.kz/"
+          ><img class="partner" src="/image-removebg-preview.png" alt="BIL"
+        /></a>
+        <a href="https://sdu.edu.kz/"
+          ><img class="part" src="./jihc-logo-sdu-v1.png" alt="SDU"
+        /></a>
+      </div>
+    </div>
+  </body>
+</html>
